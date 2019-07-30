@@ -1,0 +1,1136 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* KinoplayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* KinoplayTests.m */; };
+		010D7392D055490AADD85C4C /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25EF6458497344E195670D54 /* Gilroy-SemiBold.ttf */; };
+		027634F337204FAB9B9098BD /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50DECD05529646C3AA455631 /* SF-Pro-Text-Regular.otf */; };
+		03E7CF7AF4584EC9A5D7F137 /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AB7A294FD2241A499BD4821 /* SF-Pro-Display-Light.otf */; };
+		0FA799C67B2243A6B04D2D32 /* Gilroy-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4976DBEBDBA47E388BD9974 /* Gilroy-BoldItalic.ttf */; };
+		109852EBBF2E47A38EC3D936 /* SF-Pro-Text-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DA1446DCA5B546D79D5D3999 /* SF-Pro-Text-MediumItalic.otf */; };
+		11630EA4964640AB99D8AA78 /* SF-Pro-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A30877652A7542B6AADEC6AD /* SF-Pro-Text-Light.otf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1B8BCA2E096C4678ACB62DEB /* Gilroy-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53C9E0061CB445D6B28FC377 /* Gilroy-UltraLight.ttf */; };
+		22A4296D839E4D9F91A3BA89 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 63461E74754D42779B40BC87 /* SF-Pro-Text-Semibold.otf */; };
+		241218D428974B92843F6B90 /* SF-Pro-Text-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 265CC65292194A6F8C5AB159 /* SF-Pro-Text-LightItalic.otf */; };
+		24E9F2CEBCF84577830C15AF /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07D17CAFA0F541B398BF194C /* Gilroy-Medium.ttf */; };
+		27A200FD557E80B92D44FB31 /* libPods-Kinoplay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB93581139D1DE04BCA89001 /* libPods-Kinoplay.a */; };
+		2CB3E3730AE141C4BEAB17FB /* Gilroy-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F33F512C7C324DAAA53D0E72 /* Gilroy-SemiBoldItalic.ttf */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* KinoplayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* KinoplayTests.m */; };
+		3199BC07C8264F61B602079D /* Gilroy-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECAFC3B2AF8446E8B4820EC6 /* Gilroy-Heavy.ttf */; };
+		358F1441EDCB4851871C1078 /* SF-Pro-Display-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE7099E308EC4E2FB156E148 /* SF-Pro-Display-BlackItalic.otf */; };
+		3A5C2282E87E40E4BC140824 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 30920A98A35C4A97B202A9E2 /* SF-Pro-Display-Semibold.otf */; };
+		3C2781FC348D4BFD83B5BFB5 /* SF-Pro-Display-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1FF7D8825AFB4403A9332EBD /* SF-Pro-Display-MediumItalic.otf */; };
+		3F8BB37F9A3845CF888D7345 /* SF-Pro-Display-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C4A27FEF13274C73A2DC21D3 /* SF-Pro-Display-ThinItalic.otf */; };
+		462ABA4E670B47FEB20A1F5F /* SF-Pro-Display-UltralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D8D8C8A537534D1B9393000E /* SF-Pro-Display-UltralightItalic.otf */; };
+		4D1C66753B0248DEA7C0B0BA /* Gilroy-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5268B3AE1A454C7199A604D3 /* Gilroy-BlackItalic.ttf */; };
+		59C2D2BD376443A583C6E758 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A87E9308E173456584DCA526 /* SF-Pro-Display-Bold.otf */; };
+		5BCAFA2146E64FFBAFB3186B /* Gilroy-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6323AABAABCB4A1594150A77 /* Gilroy-Light.ttf */; };
+		6282277730BB45E984E7B1F0 /* Gilroy-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FCC0D4EFCF64DBA8540B068 /* Gilroy-HeavyItalic.ttf */; };
+		6EE71A74FAA347BB8A2895D3 /* Gilroy-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C70CA46CE7334CA7A5B8F049 /* Gilroy-Black.ttf */; };
+		7AA405BA09DC4F60AC25214F /* SF-Pro-Text-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA09435A0EA845FBA03C2208 /* SF-Pro-Text-HeavyItalic.otf */; };
+		81BF94B7AC5B4305B7396B7C /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D528EBD93F104918AF9203A8 /* SF-Pro-Text-Medium.otf */; };
+		8D4938EF5AFF439E9473E195 /* SF-Pro-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5875D4F549846E38F54E13E /* SF-Pro-Display-Ultralight.otf */; };
+		A84FB183E3184C61BF7D40FE /* SF-Pro-Display-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE4DB525D4D54137947C2293 /* SF-Pro-Display-SemiboldItalic.otf */; };
+		A92F025BC05D4EAB97C224EC /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 06761C9F70B440D2B538748A /* SF-Pro-Display-Medium.otf */; };
+		AB69271A5ABB4F52ABDD165A /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D076D624A8245F88B738C81 /* Gilroy-Bold.ttf */; };
+		AC1E38CD142C4E53857BC0D4 /* Gilroy-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71DFC6D0A3144505BD682812 /* Gilroy-ThinItalic.ttf */; };
+		ADAED80CE64943BFBEB64DF0 /* SF-Pro-Text-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BE5FB24FF9974282B9BE547E /* SF-Pro-Text-BoldItalic.otf */; };
+		B1404F0B487D4884B5BE9F47 /* Gilroy-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F2F57A6FDAC41C5AEEC7392 /* Gilroy-Thin.ttf */; };
+		B38C3D5A2C36491CBAE07EC4 /* SF-Pro-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2061640684EA4B38B8DE578B /* SF-Pro-Display-Thin.otf */; };
+		B557D32E5A754E8E9E348AF9 /* Gilroy-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E313757472B4A23A340E43C /* Gilroy-RegularItalic.ttf */; };
+		B781C8827C1240C794F6D2B9 /* SF-Pro-Display-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6828315511C5420BA32D188B /* SF-Pro-Display-RegularItalic.otf */; };
+		B798EAEAC54045759F08CFDB /* SF-Pro-Display-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B242D0DFDE5549AC8B8A8A93 /* SF-Pro-Display-HeavyItalic.otf */; };
+		B8CA1996A909B3F2A2A4C6E5 /* libPods-Kinoplay-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E34D3499BA2D1C0AB09BE2 /* libPods-Kinoplay-tvOS.a */; };
+		BA1D5203CFE249809BC993C7 /* SF-Pro-Display-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 53A1466111F04C38AA467DA5 /* SF-Pro-Display-BoldItalic.otf */; };
+		C2929902E02341229E4F18B2 /* Gilroy-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85CC58E808BE4A3EB410B01C /* Gilroy-ExtraBold.ttf */; };
+		C7160CBB5AE24A02B4AB70ED /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = E98834C2C7AD48B385D798AB /* SF-Pro-Display-Heavy.otf */; };
+		CC5D775AC9F6446F9C4175A6 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3E2117C590A47F396AABE3D /* Gilroy-Regular.ttf */; };
+		CFE9FBFDA00E49849195E049 /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5987F06F7F45FF8F9E0287 /* SF-Pro-Display-Black.otf */; };
+		D09DA4E468D342C6856C0E86 /* SF-Pro-Display-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AFF2652ECE314B17B37FA2A6 /* SF-Pro-Display-LightItalic.otf */; };
+		D256B5AA635A4629A05CE74D /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3BA863163E35412886012570 /* SF-Pro-Text-Bold.otf */; };
+		D3C0E1A0908DAE245658F671 /* libPods-KinoplayTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4EF0137DCC245B7F8A2B33 /* libPods-KinoplayTests.a */; };
+		DDC8EF8EC1054919849816E8 /* Gilroy-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C7A36A8BD554986B88AFC9B /* Gilroy-ExtraBoldItalic.ttf */; };
+		E0BD7597B9D4406CB99AF52B /* Gilroy-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F989C19C6454FBEA099F4C0 /* Gilroy-MediumItalic.ttf */; };
+		E3BA65EDBE0A4459A45A8F44 /* SF-Pro-Text-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = F4B94B2D814F441784539F0C /* SF-Pro-Text-Heavy.otf */; };
+		E5CA59B9D7ED471E87C4777F /* SF-Pro-Text-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0A89DB644C44469DB12C516E /* SF-Pro-Text-RegularItalic.otf */; };
+		ED4BDCAB5970CAD2B464E1A7 /* libPods-Kinoplay-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DE9DFD8328482E0BBA70CF /* libPods-Kinoplay-tvOSTests.a */; };
+		F1C4AEF34BE346B29D48B201 /* Gilroy-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97FB832F61354EBDB4B78B01 /* Gilroy-LightItalic.ttf */; };
+		F272BCB125C346EBB9AD8961 /* SF-Pro-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C27B03ADB409432EAA98EB9C /* SF-Pro-Text-SemiboldItalic.otf */; };
+		F2E66A4A037E43A48EC062C1 /* Gilroy-UltraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AA4042070644313BCE72868 /* Gilroy-UltraLightItalic.ttf */; };
+		F4A8B8270728472489A56ED1 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D19E81928EC4DF0AFAFAED8 /* SF-Pro-Display-Regular.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = Kinoplay;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "Kinoplay-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* KinoplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinoplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* KinoplayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KinoplayTests.m; sourceTree = "<group>"; };
+		06761C9F70B440D2B538748A /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Medium.otf"; path = "../assets/fonts/SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
+		07D17CAFA0F541B398BF194C /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-Medium.ttf"; path = "../assets/fonts/Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		0A89DB644C44469DB12C516E /* SF-Pro-Text-RegularItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-RegularItalic.otf"; path = "../assets/fonts/SF-Pro-Text-RegularItalic.otf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Kinoplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kinoplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Kinoplay/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Kinoplay/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Kinoplay/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Kinoplay/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Kinoplay/main.m; sourceTree = "<group>"; };
+		16387350AA1F77E656DB4742 /* Pods-Kinoplay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kinoplay.debug.xcconfig"; path = "Target Support Files/Pods-Kinoplay/Pods-Kinoplay.debug.xcconfig"; sourceTree = "<group>"; };
+		1B77AFCB27B1D7B4B8861708 /* Pods-KinoplayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KinoplayTests.release.xcconfig"; path = "Target Support Files/Pods-KinoplayTests/Pods-KinoplayTests.release.xcconfig"; sourceTree = "<group>"; };
+		1FF7D8825AFB4403A9332EBD /* SF-Pro-Display-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-MediumItalic.otf"; path = "../assets/fonts/SF-Pro-Display-MediumItalic.otf"; sourceTree = "<group>"; };
+		2061640684EA4B38B8DE578B /* SF-Pro-Display-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Thin.otf"; path = "../assets/fonts/SF-Pro-Display-Thin.otf"; sourceTree = "<group>"; };
+		25EF6458497344E195670D54 /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-SemiBold.ttf"; path = "../assets/fonts/Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
+		265CC65292194A6F8C5AB159 /* SF-Pro-Text-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-LightItalic.otf"; path = "../assets/fonts/SF-Pro-Text-LightItalic.otf"; sourceTree = "<group>"; };
+		2AB7A294FD2241A499BD4821 /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Light.otf"; path = "../assets/fonts/SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
+		2CB299E535787860B96C5A07 /* Pods-Kinoplay-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kinoplay-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Kinoplay-tvOSTests/Pods-Kinoplay-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* Kinoplay-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kinoplay-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Kinoplay-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kinoplay-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F2F57A6FDAC41C5AEEC7392 /* Gilroy-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-Thin.ttf"; path = "../assets/fonts/Gilroy-Thin.ttf"; sourceTree = "<group>"; };
+		30920A98A35C4A97B202A9E2 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Semibold.otf"; path = "../assets/fonts/SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		3BA863163E35412886012570 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-Bold.otf"; path = "../assets/fonts/SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		3D19E81928EC4DF0AFAFAED8 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Regular.otf"; path = "../assets/fonts/SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		4AA4042070644313BCE72868 /* Gilroy-UltraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-UltraLightItalic.ttf"; path = "../assets/fonts/Gilroy-UltraLightItalic.ttf"; sourceTree = "<group>"; };
+		4E028BFEDB89A0F942974AED /* Pods-Kinoplay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kinoplay.release.xcconfig"; path = "Target Support Files/Pods-Kinoplay/Pods-Kinoplay.release.xcconfig"; sourceTree = "<group>"; };
+		4FCC0D4EFCF64DBA8540B068 /* Gilroy-HeavyItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-HeavyItalic.ttf"; path = "../assets/fonts/Gilroy-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		50DECD05529646C3AA455631 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-Regular.otf"; path = "../assets/fonts/SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		525DDB6EE066F23538CE31FC /* Pods-Kinoplay-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kinoplay-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Kinoplay-tvOS/Pods-Kinoplay-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		5268B3AE1A454C7199A604D3 /* Gilroy-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-BlackItalic.ttf"; path = "../assets/fonts/Gilroy-BlackItalic.ttf"; sourceTree = "<group>"; };
+		53A1466111F04C38AA467DA5 /* SF-Pro-Display-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-BoldItalic.otf"; path = "../assets/fonts/SF-Pro-Display-BoldItalic.otf"; sourceTree = "<group>"; };
+		53C9E0061CB445D6B28FC377 /* Gilroy-UltraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-UltraLight.ttf"; path = "../assets/fonts/Gilroy-UltraLight.ttf"; sourceTree = "<group>"; };
+		631ACC5CF8E9E1F7A4F33850 /* Pods-KinoplayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KinoplayTests.debug.xcconfig"; path = "Target Support Files/Pods-KinoplayTests/Pods-KinoplayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6323AABAABCB4A1594150A77 /* Gilroy-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-Light.ttf"; path = "../assets/fonts/Gilroy-Light.ttf"; sourceTree = "<group>"; };
+		63461E74754D42779B40BC87 /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-Semibold.otf"; path = "../assets/fonts/SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
+		6828315511C5420BA32D188B /* SF-Pro-Display-RegularItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-RegularItalic.otf"; path = "../assets/fonts/SF-Pro-Display-RegularItalic.otf"; sourceTree = "<group>"; };
+		6D076D624A8245F88B738C81 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-Bold.ttf"; path = "../assets/fonts/Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		6F989C19C6454FBEA099F4C0 /* Gilroy-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-MediumItalic.ttf"; path = "../assets/fonts/Gilroy-MediumItalic.ttf"; sourceTree = "<group>"; };
+		71DFC6D0A3144505BD682812 /* Gilroy-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-ThinItalic.ttf"; path = "../assets/fonts/Gilroy-ThinItalic.ttf"; sourceTree = "<group>"; };
+		7C5987F06F7F45FF8F9E0287 /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Black.otf"; path = "../assets/fonts/SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
+		7CE0ED17362F56E378C9E7BF /* Pods-Kinoplay-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kinoplay-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Kinoplay-tvOSTests/Pods-Kinoplay-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		7E313757472B4A23A340E43C /* Gilroy-RegularItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-RegularItalic.ttf"; path = "../assets/fonts/Gilroy-RegularItalic.ttf"; sourceTree = "<group>"; };
+		84DE9DFD8328482E0BBA70CF /* libPods-Kinoplay-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Kinoplay-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CC58E808BE4A3EB410B01C /* Gilroy-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-ExtraBold.ttf"; path = "../assets/fonts/Gilroy-ExtraBold.ttf"; sourceTree = "<group>"; };
+		97FB832F61354EBDB4B78B01 /* Gilroy-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-LightItalic.ttf"; path = "../assets/fonts/Gilroy-LightItalic.ttf"; sourceTree = "<group>"; };
+		9B4EF0137DCC245B7F8A2B33 /* libPods-KinoplayTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KinoplayTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C7A36A8BD554986B88AFC9B /* Gilroy-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-ExtraBoldItalic.ttf"; path = "../assets/fonts/Gilroy-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		A30877652A7542B6AADEC6AD /* SF-Pro-Text-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-Light.otf"; path = "../assets/fonts/SF-Pro-Text-Light.otf"; sourceTree = "<group>"; };
+		A5875D4F549846E38F54E13E /* SF-Pro-Display-Ultralight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Ultralight.otf"; path = "../assets/fonts/SF-Pro-Display-Ultralight.otf"; sourceTree = "<group>"; };
+		A87E9308E173456584DCA526 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Bold.otf"; path = "../assets/fonts/SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		AB93581139D1DE04BCA89001 /* libPods-Kinoplay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Kinoplay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF2652ECE314B17B37FA2A6 /* SF-Pro-Display-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-LightItalic.otf"; path = "../assets/fonts/SF-Pro-Display-LightItalic.otf"; sourceTree = "<group>"; };
+		B242D0DFDE5549AC8B8A8A93 /* SF-Pro-Display-HeavyItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-HeavyItalic.otf"; path = "../assets/fonts/SF-Pro-Display-HeavyItalic.otf"; sourceTree = "<group>"; };
+		B4976DBEBDBA47E388BD9974 /* Gilroy-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-BoldItalic.ttf"; path = "../assets/fonts/Gilroy-BoldItalic.ttf"; sourceTree = "<group>"; };
+		BE5FB24FF9974282B9BE547E /* SF-Pro-Text-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-BoldItalic.otf"; path = "../assets/fonts/SF-Pro-Text-BoldItalic.otf"; sourceTree = "<group>"; };
+		C27B03ADB409432EAA98EB9C /* SF-Pro-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-SemiboldItalic.otf"; path = "../assets/fonts/SF-Pro-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		C4A27FEF13274C73A2DC21D3 /* SF-Pro-Display-ThinItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-ThinItalic.otf"; path = "../assets/fonts/SF-Pro-Display-ThinItalic.otf"; sourceTree = "<group>"; };
+		C70CA46CE7334CA7A5B8F049 /* Gilroy-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-Black.ttf"; path = "../assets/fonts/Gilroy-Black.ttf"; sourceTree = "<group>"; };
+		D3E2117C590A47F396AABE3D /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-Regular.ttf"; path = "../assets/fonts/Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		D528EBD93F104918AF9203A8 /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-Medium.otf"; path = "../assets/fonts/SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
+		D8D8C8A537534D1B9393000E /* SF-Pro-Display-UltralightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-UltralightItalic.otf"; path = "../assets/fonts/SF-Pro-Display-UltralightItalic.otf"; sourceTree = "<group>"; };
+		DA1446DCA5B546D79D5D3999 /* SF-Pro-Text-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-MediumItalic.otf"; path = "../assets/fonts/SF-Pro-Text-MediumItalic.otf"; sourceTree = "<group>"; };
+		DE4DB525D4D54137947C2293 /* SF-Pro-Display-SemiboldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-SemiboldItalic.otf"; path = "../assets/fonts/SF-Pro-Display-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		DE7099E308EC4E2FB156E148 /* SF-Pro-Display-BlackItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-BlackItalic.otf"; path = "../assets/fonts/SF-Pro-Display-BlackItalic.otf"; sourceTree = "<group>"; };
+		E98834C2C7AD48B385D798AB /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Heavy.otf"; path = "../assets/fonts/SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; };
+		EC84F50A56D7F533109A5D81 /* Pods-Kinoplay-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kinoplay-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Kinoplay-tvOS/Pods-Kinoplay-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		ECAFC3B2AF8446E8B4820EC6 /* Gilroy-Heavy.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-Heavy.ttf"; path = "../assets/fonts/Gilroy-Heavy.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F1E34D3499BA2D1C0AB09BE2 /* libPods-Kinoplay-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Kinoplay-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33F512C7C324DAAA53D0E72 /* Gilroy-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-SemiBoldItalic.ttf"; path = "../assets/fonts/Gilroy-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		F4B94B2D814F441784539F0C /* SF-Pro-Text-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-Heavy.otf"; path = "../assets/fonts/SF-Pro-Text-Heavy.otf"; sourceTree = "<group>"; };
+		FA09435A0EA845FBA03C2208 /* SF-Pro-Text-HeavyItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-HeavyItalic.otf"; path = "../assets/fonts/SF-Pro-Text-HeavyItalic.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C0E1A0908DAE245658F671 /* libPods-KinoplayTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A200FD557E80B92D44FB31 /* libPods-Kinoplay.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8CA1996A909B3F2A2A4C6E5 /* libPods-Kinoplay-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4BDCAB5970CAD2B464E1A7 /* libPods-Kinoplay-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* KinoplayTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* KinoplayTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = KinoplayTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Kinoplay */ = {
+			isa = PBXGroup;
+			children = (
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = Kinoplay;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				AB93581139D1DE04BCA89001 /* libPods-Kinoplay.a */,
+				F1E34D3499BA2D1C0AB09BE2 /* libPods-Kinoplay-tvOS.a */,
+				84DE9DFD8328482E0BBA70CF /* libPods-Kinoplay-tvOSTests.a */,
+				9B4EF0137DCC245B7F8A2B33 /* libPods-KinoplayTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		815B11DA48B34E839338785F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C70CA46CE7334CA7A5B8F049 /* Gilroy-Black.ttf */,
+				5268B3AE1A454C7199A604D3 /* Gilroy-BlackItalic.ttf */,
+				6D076D624A8245F88B738C81 /* Gilroy-Bold.ttf */,
+				B4976DBEBDBA47E388BD9974 /* Gilroy-BoldItalic.ttf */,
+				85CC58E808BE4A3EB410B01C /* Gilroy-ExtraBold.ttf */,
+				9C7A36A8BD554986B88AFC9B /* Gilroy-ExtraBoldItalic.ttf */,
+				ECAFC3B2AF8446E8B4820EC6 /* Gilroy-Heavy.ttf */,
+				4FCC0D4EFCF64DBA8540B068 /* Gilroy-HeavyItalic.ttf */,
+				6323AABAABCB4A1594150A77 /* Gilroy-Light.ttf */,
+				97FB832F61354EBDB4B78B01 /* Gilroy-LightItalic.ttf */,
+				07D17CAFA0F541B398BF194C /* Gilroy-Medium.ttf */,
+				6F989C19C6454FBEA099F4C0 /* Gilroy-MediumItalic.ttf */,
+				D3E2117C590A47F396AABE3D /* Gilroy-Regular.ttf */,
+				7E313757472B4A23A340E43C /* Gilroy-RegularItalic.ttf */,
+				25EF6458497344E195670D54 /* Gilroy-SemiBold.ttf */,
+				F33F512C7C324DAAA53D0E72 /* Gilroy-SemiBoldItalic.ttf */,
+				2F2F57A6FDAC41C5AEEC7392 /* Gilroy-Thin.ttf */,
+				71DFC6D0A3144505BD682812 /* Gilroy-ThinItalic.ttf */,
+				53C9E0061CB445D6B28FC377 /* Gilroy-UltraLight.ttf */,
+				4AA4042070644313BCE72868 /* Gilroy-UltraLightItalic.ttf */,
+				7C5987F06F7F45FF8F9E0287 /* SF-Pro-Display-Black.otf */,
+				DE7099E308EC4E2FB156E148 /* SF-Pro-Display-BlackItalic.otf */,
+				A87E9308E173456584DCA526 /* SF-Pro-Display-Bold.otf */,
+				53A1466111F04C38AA467DA5 /* SF-Pro-Display-BoldItalic.otf */,
+				E98834C2C7AD48B385D798AB /* SF-Pro-Display-Heavy.otf */,
+				B242D0DFDE5549AC8B8A8A93 /* SF-Pro-Display-HeavyItalic.otf */,
+				2AB7A294FD2241A499BD4821 /* SF-Pro-Display-Light.otf */,
+				AFF2652ECE314B17B37FA2A6 /* SF-Pro-Display-LightItalic.otf */,
+				06761C9F70B440D2B538748A /* SF-Pro-Display-Medium.otf */,
+				1FF7D8825AFB4403A9332EBD /* SF-Pro-Display-MediumItalic.otf */,
+				3D19E81928EC4DF0AFAFAED8 /* SF-Pro-Display-Regular.otf */,
+				6828315511C5420BA32D188B /* SF-Pro-Display-RegularItalic.otf */,
+				30920A98A35C4A97B202A9E2 /* SF-Pro-Display-Semibold.otf */,
+				DE4DB525D4D54137947C2293 /* SF-Pro-Display-SemiboldItalic.otf */,
+				2061640684EA4B38B8DE578B /* SF-Pro-Display-Thin.otf */,
+				C4A27FEF13274C73A2DC21D3 /* SF-Pro-Display-ThinItalic.otf */,
+				A5875D4F549846E38F54E13E /* SF-Pro-Display-Ultralight.otf */,
+				D8D8C8A537534D1B9393000E /* SF-Pro-Display-UltralightItalic.otf */,
+				3BA863163E35412886012570 /* SF-Pro-Text-Bold.otf */,
+				BE5FB24FF9974282B9BE547E /* SF-Pro-Text-BoldItalic.otf */,
+				F4B94B2D814F441784539F0C /* SF-Pro-Text-Heavy.otf */,
+				FA09435A0EA845FBA03C2208 /* SF-Pro-Text-HeavyItalic.otf */,
+				A30877652A7542B6AADEC6AD /* SF-Pro-Text-Light.otf */,
+				265CC65292194A6F8C5AB159 /* SF-Pro-Text-LightItalic.otf */,
+				D528EBD93F104918AF9203A8 /* SF-Pro-Text-Medium.otf */,
+				DA1446DCA5B546D79D5D3999 /* SF-Pro-Text-MediumItalic.otf */,
+				50DECD05529646C3AA455631 /* SF-Pro-Text-Regular.otf */,
+				0A89DB644C44469DB12C516E /* SF-Pro-Text-RegularItalic.otf */,
+				63461E74754D42779B40BC87 /* SF-Pro-Text-Semibold.otf */,
+				C27B03ADB409432EAA98EB9C /* SF-Pro-Text-SemiboldItalic.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* Kinoplay */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* KinoplayTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				E1FB1839F3BFF75A2B0D00D9 /* Pods */,
+				815B11DA48B34E839338785F /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Kinoplay.app */,
+				00E356EE1AD99517003FC87E /* KinoplayTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Kinoplay-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Kinoplay-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1FB1839F3BFF75A2B0D00D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16387350AA1F77E656DB4742 /* Pods-Kinoplay.debug.xcconfig */,
+				4E028BFEDB89A0F942974AED /* Pods-Kinoplay.release.xcconfig */,
+				EC84F50A56D7F533109A5D81 /* Pods-Kinoplay-tvOS.debug.xcconfig */,
+				525DDB6EE066F23538CE31FC /* Pods-Kinoplay-tvOS.release.xcconfig */,
+				2CB299E535787860B96C5A07 /* Pods-Kinoplay-tvOSTests.debug.xcconfig */,
+				7CE0ED17362F56E378C9E7BF /* Pods-Kinoplay-tvOSTests.release.xcconfig */,
+				631ACC5CF8E9E1F7A4F33850 /* Pods-KinoplayTests.debug.xcconfig */,
+				1B77AFCB27B1D7B4B8861708 /* Pods-KinoplayTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* KinoplayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "KinoplayTests" */;
+			buildPhases = (
+				775761D0A46E56D4F08C3FC1 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = KinoplayTests;
+			productName = KinoplayTests;
+			productReference = 00E356EE1AD99517003FC87E /* KinoplayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* Kinoplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Kinoplay" */;
+			buildPhases = (
+				A9002EEC1C9FB1BF82081F67 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kinoplay;
+			productName = Kinoplay;
+			productReference = 13B07F961A680F5B00A75B9A /* Kinoplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* Kinoplay-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Kinoplay-tvOS" */;
+			buildPhases = (
+				100718B255AB8B7AA3E485FC /* [CP] Check Pods Manifest.lock */,
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kinoplay-tvOS";
+			productName = "Kinoplay-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Kinoplay-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* Kinoplay-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Kinoplay-tvOSTests" */;
+			buildPhases = (
+				7DD213F16889FEEE112D89C0 /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "Kinoplay-tvOSTests";
+			productName = "Kinoplay-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Kinoplay-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 940;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = L9253WT336;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Kinoplay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Kinoplay */,
+				00E356ED1AD99517003FC87E /* KinoplayTests */,
+				2D02E47A1E0B4A5D006451C7 /* Kinoplay-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Kinoplay-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				6EE71A74FAA347BB8A2895D3 /* Gilroy-Black.ttf in Resources */,
+				4D1C66753B0248DEA7C0B0BA /* Gilroy-BlackItalic.ttf in Resources */,
+				AB69271A5ABB4F52ABDD165A /* Gilroy-Bold.ttf in Resources */,
+				0FA799C67B2243A6B04D2D32 /* Gilroy-BoldItalic.ttf in Resources */,
+				C2929902E02341229E4F18B2 /* Gilroy-ExtraBold.ttf in Resources */,
+				DDC8EF8EC1054919849816E8 /* Gilroy-ExtraBoldItalic.ttf in Resources */,
+				3199BC07C8264F61B602079D /* Gilroy-Heavy.ttf in Resources */,
+				6282277730BB45E984E7B1F0 /* Gilroy-HeavyItalic.ttf in Resources */,
+				5BCAFA2146E64FFBAFB3186B /* Gilroy-Light.ttf in Resources */,
+				F1C4AEF34BE346B29D48B201 /* Gilroy-LightItalic.ttf in Resources */,
+				24E9F2CEBCF84577830C15AF /* Gilroy-Medium.ttf in Resources */,
+				E0BD7597B9D4406CB99AF52B /* Gilroy-MediumItalic.ttf in Resources */,
+				CC5D775AC9F6446F9C4175A6 /* Gilroy-Regular.ttf in Resources */,
+				B557D32E5A754E8E9E348AF9 /* Gilroy-RegularItalic.ttf in Resources */,
+				010D7392D055490AADD85C4C /* Gilroy-SemiBold.ttf in Resources */,
+				2CB3E3730AE141C4BEAB17FB /* Gilroy-SemiBoldItalic.ttf in Resources */,
+				B1404F0B487D4884B5BE9F47 /* Gilroy-Thin.ttf in Resources */,
+				AC1E38CD142C4E53857BC0D4 /* Gilroy-ThinItalic.ttf in Resources */,
+				1B8BCA2E096C4678ACB62DEB /* Gilroy-UltraLight.ttf in Resources */,
+				F2E66A4A037E43A48EC062C1 /* Gilroy-UltraLightItalic.ttf in Resources */,
+				CFE9FBFDA00E49849195E049 /* SF-Pro-Display-Black.otf in Resources */,
+				358F1441EDCB4851871C1078 /* SF-Pro-Display-BlackItalic.otf in Resources */,
+				59C2D2BD376443A583C6E758 /* SF-Pro-Display-Bold.otf in Resources */,
+				BA1D5203CFE249809BC993C7 /* SF-Pro-Display-BoldItalic.otf in Resources */,
+				C7160CBB5AE24A02B4AB70ED /* SF-Pro-Display-Heavy.otf in Resources */,
+				B798EAEAC54045759F08CFDB /* SF-Pro-Display-HeavyItalic.otf in Resources */,
+				03E7CF7AF4584EC9A5D7F137 /* SF-Pro-Display-Light.otf in Resources */,
+				D09DA4E468D342C6856C0E86 /* SF-Pro-Display-LightItalic.otf in Resources */,
+				A92F025BC05D4EAB97C224EC /* SF-Pro-Display-Medium.otf in Resources */,
+				3C2781FC348D4BFD83B5BFB5 /* SF-Pro-Display-MediumItalic.otf in Resources */,
+				F4A8B8270728472489A56ED1 /* SF-Pro-Display-Regular.otf in Resources */,
+				B781C8827C1240C794F6D2B9 /* SF-Pro-Display-RegularItalic.otf in Resources */,
+				3A5C2282E87E40E4BC140824 /* SF-Pro-Display-Semibold.otf in Resources */,
+				A84FB183E3184C61BF7D40FE /* SF-Pro-Display-SemiboldItalic.otf in Resources */,
+				B38C3D5A2C36491CBAE07EC4 /* SF-Pro-Display-Thin.otf in Resources */,
+				3F8BB37F9A3845CF888D7345 /* SF-Pro-Display-ThinItalic.otf in Resources */,
+				8D4938EF5AFF439E9473E195 /* SF-Pro-Display-Ultralight.otf in Resources */,
+				462ABA4E670B47FEB20A1F5F /* SF-Pro-Display-UltralightItalic.otf in Resources */,
+				D256B5AA635A4629A05CE74D /* SF-Pro-Text-Bold.otf in Resources */,
+				ADAED80CE64943BFBEB64DF0 /* SF-Pro-Text-BoldItalic.otf in Resources */,
+				E3BA65EDBE0A4459A45A8F44 /* SF-Pro-Text-Heavy.otf in Resources */,
+				7AA405BA09DC4F60AC25214F /* SF-Pro-Text-HeavyItalic.otf in Resources */,
+				11630EA4964640AB99D8AA78 /* SF-Pro-Text-Light.otf in Resources */,
+				241218D428974B92843F6B90 /* SF-Pro-Text-LightItalic.otf in Resources */,
+				81BF94B7AC5B4305B7396B7C /* SF-Pro-Text-Medium.otf in Resources */,
+				109852EBBF2E47A38EC3D936 /* SF-Pro-Text-MediumItalic.otf in Resources */,
+				027634F337204FAB9B9098BD /* SF-Pro-Text-Regular.otf in Resources */,
+				E5CA59B9D7ED471E87C4777F /* SF-Pro-Text-RegularItalic.otf in Resources */,
+				22A4296D839E4D9F91A3BA89 /* SF-Pro-Text-Semibold.otf in Resources */,
+				F272BCB125C346EBB9AD8961 /* SF-Pro-Text-SemiboldItalic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		100718B255AB8B7AA3E485FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kinoplay-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		775761D0A46E56D4F08C3FC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KinoplayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DD213F16889FEEE112D89C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kinoplay-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9002EEC1C9FB1BF82081F67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kinoplay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* KinoplayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* KinoplayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* Kinoplay */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* Kinoplay-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = Kinoplay;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 631ACC5CF8E9E1F7A4F33850 /* Pods-KinoplayTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KinoplayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kinoplay.app/Kinoplay";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B77AFCB27B1D7B4B8861708 /* Pods-KinoplayTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = KinoplayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kinoplay.app/Kinoplay";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16387350AA1F77E656DB4742 /* Pods-Kinoplay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = L9253WT336;
+				INFOPLIST_FILE = Kinoplay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.KinoplayApp;
+				PRODUCT_NAME = Kinoplay;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E028BFEDB89A0F942974AED /* Pods-Kinoplay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L9253WT336;
+				INFOPLIST_FILE = Kinoplay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.KinoplayApp;
+				PRODUCT_NAME = Kinoplay;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC84F50A56D7F533109A5D81 /* Pods-Kinoplay-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Kinoplay-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Kinoplay-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 525DDB6EE066F23538CE31FC /* Pods-Kinoplay-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Kinoplay-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Kinoplay-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB299E535787860B96C5A07 /* Pods-Kinoplay-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Kinoplay-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Kinoplay-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kinoplay-tvOS.app/Kinoplay-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CE0ED17362F56E378C9E7BF /* Pods-Kinoplay-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Kinoplay-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Kinoplay-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kinoplay-tvOS.app/Kinoplay-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "KinoplayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Kinoplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Kinoplay-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Kinoplay-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Kinoplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
