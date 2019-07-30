@@ -256,7 +256,7 @@ class Game extends Component {
                   style={{
                     position: "absolute",
                     left: barWidth + 40,
-                    top: getHeight(480),
+                    top: getHeight(520),
                     width: barWidth
                   }}
                   ref={ref => (this["title" + index] = ref)}

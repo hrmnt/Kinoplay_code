@@ -71,8 +71,8 @@ class HighScore extends Component {
         2000
       );
       if (
-        this.props.gameReducer.session.users &&
-        this.props.gameReducer.session.users.length > 1
+        this.props.session.users &&
+        this.props.session.users.length > 1
       ) {
         setTimeout(() => {
           this.sUser.transitionTo(
@@ -83,8 +83,8 @@ class HighScore extends Component {
             2000
           );
           if (
-            this.props.gameReducer.session.users &&
-            this.props.gameReducer.session.users.length > 2
+            this.props.session.users &&
+            this.props.session.users.length > 2
           ) {
             setTimeout(() => {
               this.tUser.transitionTo(
@@ -110,8 +110,6 @@ class HighScore extends Component {
   };
 
   render() {
-    let sore = sortBy(this.props.gameReducer.session.users, ["user", "score"]);
-    sore = sore.reverse();
     return (
       <View style={styles.container}>
         <Animated.View
@@ -142,7 +140,7 @@ class HighScore extends Component {
           <GameHeader
             onPress={() => this.goBack()}
             onBack={this.props.onBack}
-            user={this.props.gameReducer.user}
+            user={this.props.user}
             title={"Leaderboard"}
           />
 
@@ -210,14 +208,14 @@ class HighScore extends Component {
                     <Text style={styles.btnMT}>ответы</Text>
                   </View>
                   <Text style={styles.btnFT}>
-                    {/* {this.props.gameReducer.session.users &&
-                      this.props.gameReducer.session.users.find(item => {
+                    {this.props.session.users &&
+                      this.props.session.users.find(item => {
                         console.log(item);
-                        return item._id === this.props.gameReducer.user._id;
-                      }).correct_answer_amount} */}
+                        return item._id === this.props.user._id;
+                      }).correct_answer_amount}
                     /
-                    {this.props.gameReducer.session.quiz &&
-                      this.props.gameReducer.session.quiz.questions.length}
+                    {this.props.session.quiz &&
+                      this.props.session.quiz.questions.length}
                   </Text>
                 </TouchableOpacity>
               </LinearGradient>
@@ -243,11 +241,10 @@ class HighScore extends Component {
                     <Text style={styles.btnMT}>баллы</Text>
                   </View>
                   <Text style={styles.btnFT}>
-                    {/* {this.props.gameReducer.user.score} */}
-                    {/* {this.props.gameReducer.session.users &&
-                      this.props.gameReducer.session.users.find(
-                        item => item._id === this.props.gameReducer.user._id
-                      ).score} */}
+                    {this.props.session.users &&
+                      this.props.session.users.find(
+                        item => item._id === this.props.user._id
+                      ).score}
                   </Text>
                 </TouchableOpacity>
               </LinearGradient>
@@ -281,8 +278,8 @@ class HighScore extends Component {
                     fontSize: 14
                   }}
                 >
-                  {this.props.gameReducer.session.users &&
-                    sore[1].user.username}
+                  {this.props.session.users.length>1 &&
+                    this.props.session.users[1].user.username}
                 </Text>
               </Animatable.View>
 
@@ -308,8 +305,8 @@ class HighScore extends Component {
                     fontSize: 14
                   }}
                 >
-                  {this.props.gameReducer.session.users &&
-                    sore[0].user.username}
+                  {this.props.session.users &&
+                    this.props.session.users[0].user.username}
                 </Text>
               </Animatable.View>
               <Animatable.View
@@ -335,8 +332,8 @@ class HighScore extends Component {
                     fontSize: 14
                   }}
                 >
-                  {this.props.gameReducer.session.users &&
-                    sore[2].user.username}
+                  {this.props.session.users.length> 2 &&
+                    this.props.session.users[2].user.username}
                 </Text>
               </Animatable.View>
             </View>
@@ -365,8 +362,8 @@ class HighScore extends Component {
               }}
               contentContainerStyle={{ padding: 10 }}
             >
-              {this.props.gameReducer.session.users &&
-                sore.map((item, index) => {
+              {this.props.session.users &&
+                this.props.session.users.map((item, index) => {
                   return (
                     <View
                       style={{
@@ -454,9 +451,9 @@ class HighScore extends Component {
                     fontWeight: "700"
                   }}
                 >
-                  {this.props.gameReducer.session.users &&
-                    this.props.gameReducer.session.users.map((item, index) => {
-                      if (item._id === this.props.gameReducer.user._id) {
+                  {this.props.session.users &&
+                    this.props.session.users.map((item, index) => {
+                      if (item._id === this.props.user._id) {
                         return index + 1;
                       }
                     })}
@@ -472,10 +469,10 @@ class HighScore extends Component {
                     color: "#fff"
                   }}
                 >
-                  {/* {this.props.gameReducer.session.users &&
-                    this.props.gameReducer.session.users.find(
-                      item => item._id === this.props.gameReducer.user._id
-                    ).user.username} */}
+                  {this.props.session.users &&
+                    this.props.session.users.find(
+                      item => item._id === this.props.user._id
+                    ).user.username}
                 </Text>
               </View>
               <View style={{ flexDirection: "row", alignItems: "center" }}>
@@ -490,10 +487,10 @@ class HighScore extends Component {
                     color: "#fff"
                   }}
                 >
-                  {/* {this.props.gameReducer.session.users &&
-                    this.props.gameReducer.session.users.find(
-                      item => item._id === this.props.gameReducer.user._id
-                    ).score} */}
+                  {this.props.session.users &&
+                    this.props.session.users.find(
+                      item => item._id === this.props.user._id
+                    ).score}
                 </Text>
               </View>
             </View>

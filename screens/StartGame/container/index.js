@@ -31,8 +31,8 @@ class StartGameContiner extends Component {
   async componentDidMount() {}
 
   handleBarCodeScanned = () => {
-    console.log(this.state.code)
-    this.props.socket.emit("quiz_session_connect", { quizSessionId: this.state.code });
+    console.log(typeof Number(this.state.code));
+    this.props.socket.emit("quiz_session_connect", { code: Number(this.state.code) });
   };
 
   render() {
@@ -80,75 +80,105 @@ class StartGameContiner extends Component {
             >
               <TextInput
                 ref={ref => (this.firstI = ref)}
-                onChangeText={text => {
-                  this.setState({
-                    code: this.state.code + text
-                  });
-                  this.secondI.focus();
-                }}
-                maxLength={1}
-                placeholder="0"
-                placeholderTextColor="#ccc"
-                style={{
-                  height: 120,
-                  width: 60,
-                  borderBottomColor: "#eb51d9",
-                  borderBottomWidth: 2,
-                  color: "#fff",
-                  fontSize: 35,
-                  textAlign: "center"
-                }}
-              />
-              <TextInput
-                ref={ref => (this.secondI = ref)}
-                onChangeText={text => {
-                  this.setState({
-                    code: this.state.code + text
-                  });
-                  this.thirdI.focus();
-                }}
-                maxLength={1}
-                placeholder="0"
-                placeholderTextColor="#ccc"
-                style={{
-                  height: 120,
-                  width: 60,
-                  borderBottomColor: "#eb51d9",
-                  borderBottomWidth: 2,
-                  color: "#fff",
-                  fontSize: 35,
-                  textAlign: "center"
-                }}
-              />
-              <TextInput
-                ref={ref => (this.thirdI = ref)}
-                onChangeText={text => {
-                  this.setState({
-                    code: this.state.code + text
-                  });
-                  this.foursI.focus();
-                }}
-                maxLength={1}
-                placeholder="0"
-                placeholderTextColor="#ccc"
-                style={{
-                  height: 120,
-                  width: 60,
-                  borderBottomColor: "#eb51d9",
-                  borderBottomWidth: 2,
-                  color: "#fff",
-                  fontSize: 35,
-                  textAlign: "center"
-                }}
-              />
-              <TextInput
-                ref={ref => (this.foursI = ref)}
-                onChangeText={ async (text) => {
+                onChangeText={async text => {
                   await this.setState({
-                    code: this.state.code + text
+                    code: this.state.code + text,
+                    first: text
                   });
-                  this.handleBarCodeScanned();
+                  if (this.state.first.length > 0) {
+                    this.secondI.focus();
+                  }
                 }}
+                value={this.state.first}
+                keyboardType="number-pad"
+                maxLength={1}
+                placeholder="0"
+                placeholderTextColor="#ccc"
+                style={{
+                  height: 120,
+                  width: 60,
+                  borderBottomColor: "#eb51d9",
+                  borderBottomWidth: 2,
+                  color: "#fff",
+                  fontSize: 35,
+                  textAlign: "center"
+                }}
+              />
+              <TextInput
+                value={this.state.second}
+                ref={ref => (this.secondI = ref)}
+                onChangeText={async text => {
+                  await this.setState({
+                    code: this.state.code + text,
+                    second: text
+                  });
+                  if (this.state.second.length > 0) {
+                    this.thirdI.focus();
+                  } else {
+                    this.firstI.focus();
+                  }
+                }}
+                keyboardType="number-pad"
+                maxLength={1}
+                placeholder="0"
+                placeholderTextColor="#ccc"
+                style={{
+                  height: 120,
+                  width: 60,
+                  borderBottomColor: "#eb51d9",
+                  borderBottomWidth: 2,
+                  color: "#fff",
+                  fontSize: 35,
+                  textAlign: "center"
+                }}
+              />
+              <TextInput
+                value={this.state.third}
+                ref={ref => (this.thirdI = ref)}
+                onChangeText={ async text => {
+                  await this.setState({
+                    code: this.state.code + text,
+                    third: text
+                  });
+                  if (this.state.third.length > 0) {
+                    this.foursI.focus();
+
+                  }
+                  else{
+                    this.secondI.focus();
+
+                  }
+                }}
+                keyboardType="number-pad"
+                maxLength={1}
+                placeholder="0"
+                placeholderTextColor="#ccc"
+                style={{
+                  height: 120,
+                  width: 60,
+                  borderBottomColor: "#eb51d9",
+                  borderBottomWidth: 2,
+                  color: "#fff",
+                  fontSize: 35,
+                  textAlign: "center"
+                }}
+              />
+              <TextInput
+                value={this.state.four}
+                ref={ref => (this.foursI = ref)}
+                onChangeText={async text => {
+                  await this.setState({
+                    code: this.state.code + text,
+                    four: text
+                  });
+                  if(this.state.four.length > 0){
+                    this.handleBarCodeScanned();
+                  }
+                  else{
+                    this.thirdI.focus();
+                  }
+                }}
+                keyboardType="number-pad"
                 maxLength={1}
                 placeholder="0"
                 placeholderTextColor="#ccc"

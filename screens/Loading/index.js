@@ -15,7 +15,7 @@ import logoFlip from "../../assets/logoFilp.png";
 import { getHeight, getWidth, statusBarHeight } from "../../constants";
 
 import * as Animatable from "react-native-animatable";
-import Svg from "react-native-svg";
+import Svg ,{Path} from "react-native-svg";
 
 const { width, height } = Dimensions.get("window");
 
@@ -80,7 +80,7 @@ class Loading extends Component {
               }}
             >
               <Svg viewBox="0 0 65 66" height={53} width={53}>
-                <Svg.Path
+                <Path
                   d="M4.603 60.506c27.866-.06 55.86-21.388 55.86-55.744"
                   strokeWidth="7.8"
                   fill="none"
@@ -98,7 +98,7 @@ class Loading extends Component {
               style={{ alignSelf: "center", position: "absolute" }}
             >
               <Svg viewBox="0 0 120 10" height={100} width={100}>
-                <Svg.Path
+                <Path
                   d="M4.498 4.908c0 32.796 27.24 55.658 55.105 55.598 27.866-.06 55.86-21.388 55.86-55.744"
                   strokeWidth="8"
                   fill="none"

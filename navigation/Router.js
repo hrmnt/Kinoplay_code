@@ -54,8 +54,8 @@ const MainStack = createDrawerNavigator(
     HowToPlay,
     Game,
     QGame,
-    HighScore,
     StartGame,
+    HighScore,
 
     StoryTelling,
 

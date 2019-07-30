@@ -486,7 +486,7 @@ const styles = StyleSheet.create({
   },
   ansTxt: {
     color: "#fff",
-    fontFamily: "gilroySemiBold",
+    fontFamily: "Gilroy-Semibold",
     fontSize: 18
   },
   gameWrap: {

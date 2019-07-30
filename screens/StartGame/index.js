@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { StyleSheet, SafeAreaView as SF, Dimensions } from "react-native";
+import { StyleSheet, SafeAreaView as SF, Dimensions, Alert } from "react-native";
 import { getWidth, statusBarHeight } from "../../constants";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
@@ -24,7 +24,6 @@ import Game from "../Game";
 import QGame from "../QGame";
 import HighScore from "../HighScore";
 import StoryTelling from "../StoryTelling";
-
 let socket;
 
 class StartGame extends Component {
@@ -57,36 +56,49 @@ class StartGame extends Component {
     // connect
     socket.on("quiz_session_connect", data => {
       console.log("quiz_session_connect", data.body);
+      try{
 
-      if (data.body.quizSession.quiz.type === "STORYTELLING") {
-        const cAnswers = {
-          firstAnswer: { answer: data.body.quizSession.quiz.questions[0] },
-          secondAnswer: { answer: data.body.quizSession.quiz.questions[1] }
-        };
-        this.setState({
-          gameState: "START",
-          loading: true,
-
-          cAnswers,
-          gameType: data.body.quizSession.quiz.type,
-          pauseTimeout: data.body.quizSession.quiz.pause_timeout,
-          questionTimeout: data.body.quizSession.quiz.question_timeout,
-          quizSession: data.body.quizSession
+        if (data.body.quizSession.quiz.type === "STORYTELLING") {
+          const cAnswers = {
+            firstAnswer: { answer: data.body.quizSession.quiz.questions[0] },
+            secondAnswer: { answer: data.body.quizSession.quiz.questions[1] }
+          };
+          this.setState({
+            gameState: "START",
+            loading: true,
+  
+            cAnswers,
+            gameType: data.body.quizSession.quiz.type,
+            pauseTimeout: data.body.quizSession.quiz.pause_timeout,
+            questionTimeout: data.body.quizSession.quiz.question_timeout,
+            quizSession: data.body.quizSession,
+            user:data.body.quizUser
+          });
+        } else {
+          this.setState({
+            gameState: "START",
+            loading: true,
+            gameType: data.body.quizSession.quiz.type,
+            pauseTimeout: data.body.quizSession.quiz.pause_timeout,
+            questionTimeout: data.body.quizSession.quiz.question_timeout,
+            quizSession: data.body.quizSession,
+            user:data.body.quizUser
+          });
+        }
+        socket.emit("quiz_session_get", {
+          quizSessionId: data.body.quizSession._id
         });
-      } else {
-        this.setState({
-          gameState: "START",
-          loading: true,
-          gameType: data.body.quizSession.quiz.type,
-          pauseTimeout: data.body.quizSession.quiz.pause_timeout,
-          questionTimeout: data.body.quizSession.quiz.question_timeout,
-          quizSession: data.body.quizSession
-        });
+        this.props.fetchUser(data.body.quizUser);
       }
-      socket.emit("quiz_session_get", {
-        quizSessionId: data.body.quizSession._id
-      });
-      this.props.fetchUser(data.body.quizUser);
+      catch(e){
+        Alert.alert(
+          "Предупреждение",
+          "Данный код не действителен",
+          [{ text: "OK", onPress: () => console.log("OK Pressed") }],
+          { cancelable: false }
+        );
+      }
+
     });
     // ---------
 
@@ -106,7 +118,7 @@ class StartGame extends Component {
       // const users = data.body.quizSession.quiz.users;
       this.setState({
         users: data.body.quizSession.quiz.users,
-        session: data.body.quizSession.quiz
+        session: data.body.quizSession
       });
       if (this.state.questions.length < 1) {
         this.setState({
@@ -192,6 +204,9 @@ class StartGame extends Component {
     });
 
     socket.on("quiz_user_score_result", data => {
+      this.setState({
+        user:data.body.quizUser
+      })
       this.props.fetchUser(data.body.quizUser);
     });
 
@@ -238,7 +253,8 @@ class StartGame extends Component {
         }
       },
       loading: false,
-      mount: false
+      mount: false,
+      user:{}
     };
   }
 
@@ -363,7 +379,7 @@ class StartGame extends Component {
         }
 
       case "FINISHED":
-        return <HighScore onBack={() => this.onBack()} />;
+        return <HighScore user={this.state.user} session ={this.state.session} onBack={() => this.onBack()} />;
     }
   }
 }
